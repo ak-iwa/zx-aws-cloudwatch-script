@@ -144,37 +144,3 @@ void(async function(): Promise<void> {
     console.error(processOutput)
   }
 })();
-
-
-// 2022-10-19T04:51:28.355000+00:00 2022/10/19/[$LATEST]06e2cdc6fc0f4b268a0ed15e0526713b 2022-10-19T04:51:28.355Z	d6521fa6-5e45-4c9b-9f00-1a8b3b5065dc	ERROR	[
-//   ValidationError {
-//     property: 'instance',
-//     message: 'is not of a type(s) object',
-//     schema: { type: 'object', required: [Array], properties: [Object] },
-//     instance: [
-//       [Object], [Object], [Object],
-//       [Object], [Object], [Object],
-//       [Object], [Object], [Object],
-//       [Object], [Object], [Object],
-//       [Object], [Object], [Object],
-//       [Object], [Object], [Object],
-//       [Object], [Object], [Object],
-//       [Object], [Object], [Object]
-//     ],
-//     name: 'type',
-//     argument: [ 'object' ],
-//     stack: 'instance is not of a type(s) object'
-//   }
-// ]
-// 2022-10-19T04:51:28.355000+00:00 2022/10/19/[$LATEST]06e2cdc6fc0f4b268a0ed15e0526713b 2022-10-19T04:51:28.355Z	d6521fa6-5e45-4c9b-9f00-1a8b3b5065dc	INFO	SENTRY LOG invalid schema. please check json schema {
-//   fileStatus: {
-//     error: {
-//       reason: 'invalid schema. please check json schema',
-//       param: 'rom_patch'
-//     },
-//     result: false,
-//     isScheduled: false
-//   },
-//   key: 'shared/import/ncms/roms/PATCH/rating.json'
-// }
-// 2022-10-19T04:51:28.416000+00:00 2022/10/19/[$LATEST]06e2cdc6fc0f4b268a0ed15e0526713b END RequestId: d6521fa6-5e45-4c9b-9f00-1a8b3b5065dc

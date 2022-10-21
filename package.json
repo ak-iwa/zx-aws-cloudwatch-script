@@ -1,0 +1,26 @@
+{
+  "name": "zx-aws-cloudwatch-script",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --loader ts-node/esm handler.ts"
+  },
+  "keywords": [
+    "zx",
+    "aws",
+    "cloudWatch"
+  ],
+  "author": "akihito.iwasawa",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.11.2",
+    "dayjs": "^1.11.6",
+    "dotenv": "^16.0.3",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.0",
+    "typescript": "^4.8.4",
+    "zx": "^7.1.1"
+  }
+}
